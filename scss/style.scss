@@ -1,0 +1,23 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*general*/
+@import "./general/typography.scss";
+@import "./general/colors.scss";
+
+/*pages*/
+@import "./pages/about-me.scss";
+@import "./pages/contact.scss";
+@import "./pages/what-makes-me-me";
+@import "./pages/memories.scss";
+@import "./pages/home.scss";
+
+/*layout*/
+@import "./layouts/header.scss";
+
+/*media queries*/
+
+@import "./pages/media-queries.scss";

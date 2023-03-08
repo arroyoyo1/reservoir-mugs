@@ -1,0 +1,8 @@
+@media (max-width: 1325px) {
+  header {
+    padding: 16px 3%;
+  }
+  section {
+    padding: 130px 3% 60px;
+  }
+}/*# sourceMappingURL=media.queries.css.map */
