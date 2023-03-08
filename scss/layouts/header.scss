@@ -43,6 +43,9 @@ body {
          }
      }
  }
-
+ .animate__animated .animate__fadeIn {
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
  
  

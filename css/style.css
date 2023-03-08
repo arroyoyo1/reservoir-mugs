@@ -176,7 +176,7 @@
   margin-bottom: 10px;
 }
 .main-text h4 {
-  color: var(--bg-color);
+  color: var(--text-color);
   font-size: 24px;
   font-weight: 600;
 }
@@ -371,6 +371,9 @@ body header #menu-icon {
   }
 }
 @media (max-width: 1084px) {
+  .header {
+    position: initial;
+  }
   #menu-icon {
     display: inline-block;
   }
@@ -392,5 +395,18 @@ body header #menu-icon {
     margin: 1rem;
     text-align: justify;
     width: auto;
+  }
+  .logo img {
+    width: 20px;
+    height: auto;
+  }
+  .contact-text, .about-img, .main-text {
+    margin-top: 17rem;
+  }
+  .memories {
+    margin-top: 19rem;
+  }
+  .home-text {
+    margin-top: 15rem;
   }
 }/*# sourceMappingURL=style.css.map */
