@@ -5,19 +5,19 @@
 }
 
 /*general*/
-@import "./general/typography.scss";
-@import "./general/colors.scss";
+@import "./general/typography";
+@import "./general/colors";
 
 /*pages*/
-@import "./pages/about-me.scss";
-@import "./pages/contact.scss";
+@import "./pages/about-me";
+@import "./pages/contact";
 @import "./pages/what-makes-me-me";
-@import "./pages/memories.scss";
-@import "./pages/home.scss";
+@import "./pages/memories";
+@import "./pages/home";
 
 /*layout*/
-@import "./layouts/header.scss";
+@import "./layouts/header";
 
 /*media queries*/
 
-@import "./pages/media-queries .scss";
+@import "./pages/media-queries";

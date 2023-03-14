@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: 160vh !important;
+  height: 100vh;
 }
 .contact .contact-text h4 {
   margin: 15px 0;
@@ -69,7 +69,7 @@
   outline: none;
   width: 100%;
   padding: 15px;
-  background-color: rgba(31, 31, 31, 0.251);
+  background-color: rgba(23, 23, 23, 0.868);
   color: var(--bg-color);
   font-size: 1rem;
   margin-bottom: 0.5rem;

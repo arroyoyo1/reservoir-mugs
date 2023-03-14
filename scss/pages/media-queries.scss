@@ -37,7 +37,21 @@
 @media (max-width:970px) {
     .contact {
         grid-template-columns: 1fr;
-        height: 100vh;
+        height: 160vh;
+    }
+}
+
+@media (max-width:970px) {
+    .qualities {
+        grid-template-columns: 1fr;
+        height: 180vh;
+    }
+}
+
+@media only screen and (min-width: 970px) and (max-width: 1085px) {
+    .qualities {
+        grid-template-columns: 1fr;
+        height: 150vh;
     }
 }
 
@@ -58,12 +72,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #ffffff96;
+        background: #F6F7EB;
         transition: all 0.4s ease;
         a {
             display: block;
-            padding: 1rem;
-            margin: 1rem;
+            padding: 0.5rem;
+            margin: 0.5rem;
             text-align: justify;
             width: auto;
         }
@@ -73,14 +87,14 @@
         height: auto;
     }
     .contact-text, .about-img, .main-text {
-        margin-top: 17rem;
+        margin-top: 10rem;
     }
 
     .memories {
-        margin-top: 19rem;
+        margin-top: 12rem;
     }
     .home-text {
-        margin-top: 15rem;
+        margin-top: 8rem;
     }
 }
 

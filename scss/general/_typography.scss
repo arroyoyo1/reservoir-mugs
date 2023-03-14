@@ -5,10 +5,15 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+    
 }
 
 :root { 
     --h1-font: 83px;
     --h2-font:52px;
     --p-font: 18px;
+}
+
+::placeholder {
+     color: rgb(222, 222, 222); 
 }
