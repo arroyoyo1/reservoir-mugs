@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+$darkMode: true;
+@mixin darkMode {
+    @if($darkMode) {
+      @media(prefers-color-scheme: dark) {
+        @content;
+      }
+    }
+  }
+
 /*general*/
 @import "./general/typography";
 @import "./general/colors";

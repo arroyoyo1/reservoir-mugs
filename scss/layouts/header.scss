@@ -2,7 +2,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     header {
-         position: fixed;
+         position: absolute;
          right: 0;
          top: 0;
          width: 100%;
@@ -29,6 +29,9 @@ body {
                  border-radius: 0.5rem;
                  transition: all 0.40s ease;
              }
+             .tems {
+                color: var(--bg-color);
+            }
              .navbar, li a:hover {
                  background: var(--main-color);
                  color: var(--bg-color);
@@ -47,5 +50,18 @@ body {
     animation-duration: 5s;
     animation-delay: 1s;
 }
- 
+.headerbutton { 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: fixed;
+    bottom: 16px;
+    right: 30px;
+    z-index: 20000;
+    display: flex;
+    color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+}
  

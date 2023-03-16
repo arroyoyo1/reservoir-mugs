@@ -56,7 +56,7 @@
 }
 
 @media (max-width:1084px) {
-   .header {
+    .header {
     position: relative;
     justify-content: center !important;
     }
@@ -81,6 +81,12 @@
             text-align: justify;
             width: auto;
         }
+        .tems {
+            color: var(--bg-color);
+        }
+    }
+    .without-bg {
+        background: #f6f7eb00;
     }
     .logo img {
         width: 20px;
@@ -96,10 +102,17 @@
     .home-text {
         margin-top: 8rem;
     }
+    .wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+        align-items: center;
+        text-align: center;
+        .caption {
+            font-size: 1.5em;
+            text-align: center;
+            line-height: 1.3em;
+        }
+    }
 }
-
-
-
 
 
 

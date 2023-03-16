@@ -75,6 +75,12 @@
     text-align: justify;
     width: auto;
   }
+  .navbar .tems {
+    color: var(--bg-color);
+  }
+  .without-bg {
+    background: rgba(246, 247, 235, 0);
+  }
   .logo img {
     width: 20px;
     height: auto;
@@ -87,5 +93,15 @@
   }
   .home-text {
     margin-top: 8rem;
+  }
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    text-align: center;
+  }
+  .wrapper .caption {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.3em;
   }
 }/*# sourceMappingURL=media-queries.css.map */
