@@ -4,35 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>home - essenzia</title>
-    <meta name="description" content="essenzia tries to raise and question the very and indissoluble identity of things in the face of the phenomenal appearance of experience"> 
-    <meta name="keywords" content="ESSENCE, MODERNWEB, AESTHETIC, ECLECTIC, 444">
+    <title>Proyecto Final - To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html" class="logo"><img src="./scss/multimedia/My project-1.png"></video></a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <ul class="navbar without-bg">
-            <li><a href="./index.html">home</a></li>
-            <li><a href="./pages/about-me.html">about me</a></li>
-            <li><a href="./pages/what-makes-me-me.html">who am i?</a></li>
-            <li><a href="./pages/memories.html">memories</a></li>
-            <li><a href="./pages/contact.html">contact!</a></li>
-        </ul>
-    </header>
-    <main>
-        <section class="home animate__animated animate__fadeIn" id="home">
-            <div class="home-text">
-                <h4>hey</h4>
-                <h1>i'm mau and this is my <br><span>essence</span></h1>
-                <h3>what's yours?</h3>
-                <a href="./pages/contact.html" class="btn">share it!</a>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="imagenes/icon.png" alt="lista y lapiz"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Añade una tarea">
+                <button onclick="addTask()">Añadir</button>
             </div>
-        </section>
-    </main>
+            <ul id="list-container">
+                <!-- <li class="checked">Tarea 1</li>
+                <li>Tarea 2</li>
+                <li>Tarea 3</li> -->
+            </ul>
+        </div>
+    </div>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+  
+  *{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(250,224,214);
+    background: radial-gradient(circle, rgba(250,224,214,1) 0%, rgba(255,89,0,1) 100%);
+    padding: 10px;
+  }
+
+  .todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: rgba(250,224,214,1);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+
+  .todo-app h2 {
+    color:rgba(255,89,0,1) ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .todo-app h2 img {
+    width: 30px;
+    margin: 10px;
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 30px;
+    background:rgba(255,89,0,1);
+    margin-bottom: 25px;
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 200;
+  }
+
+  ::placeholder { 
+    color: rgba(250,224,214,1);
+  }
+
+  button{
+    border: none;
+    outline: none;
+    padding: 16px;
+    background:rgba(255,89,0,1);
+    color: rgba(250,224,214,1);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 27px;
+  }
+
+  ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+  }
+
+  ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(imagenes/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+  }
+
+  ul li.checked {
+    color: rgba(255,89,0,1);
+    text-decoration: line-through;
+  }
+
+  ul li.checked::before {
+    background-image: url(imagenes/checked.png);
+
+  }
+
+  ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color:rgba(255,89,0,1) ;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 34px;
+  }
+
+  ul li span:hover {
+    background: rgba(255,89,0,1);
+    color: antiquewhite;
+  }
+
+ 
